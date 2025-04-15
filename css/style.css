@@ -254,7 +254,7 @@ chorro: #323031 */
 .contenido-pie ul {
     list-style: none;
     display: flex;
-    gap: 900px;
+    gap: 800px;
 }
 
 .contenido-pie li {
@@ -742,10 +742,11 @@ chorro: #323031 */
 
 .contenido-principal {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100vh;
-    height: 100vh;
+    height: 80vh;
     background-color: #D8CFAF;
     text-align: center;
     
@@ -753,14 +754,13 @@ chorro: #323031 */
 
 .navbar {
     background-color: #EBEBD3;
-    padding: 25px 30px;
     border-radius: 10px;
+    
 }
 
 .cont-formulario {
     display: flex;
     flex-direction: column;
-    gap: 5px;
 }
 
 .cont-formulario label {
