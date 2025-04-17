@@ -3,7 +3,7 @@ cascara de huevo: #F0EBD8
 beige: #EBEBD3
 blanco holandes: #D8CFAF
 deldgraw: #4C5B5C
-chorro: #323031 */
+chorro: #323031 
 
 *{
     margin: 0;
@@ -12,16 +12,15 @@ chorro: #323031 */
 }
 
 /*INDEX*/
-/*main*/
 /*GRID CONTENEDOR*/
 /*pantalla mas grande que desktop*/
 @media (min-width: 1024px) {
-    /*header*/
+    /*HEADER*/
 .menu-principal {
     display: grid;
 }
 
-    /*main*/
+    /*MAIN*/
     .grid-contenido {
         background-color: #EBEBD3 ;
         display: grid;
@@ -101,7 +100,7 @@ chorro: #323031 */
     
 
 
-    /*section*/
+    /*SECTION*/
 .grid-contenido2 {
     background-color: #D8CFAF;
     display: grid;
@@ -137,7 +136,7 @@ chorro: #323031 */
 
 
 
-/*Footer*/
+/*FOOTER*/
 .grid-pie {
     background-color: #EBEBD3;
     display: grid;
@@ -168,7 +167,7 @@ chorro: #323031 */
 
 /*CONTACTO*/
 
-/*header*/
+/*HEADER*/
 .menu-principal {
     display: grid;
 }
@@ -190,7 +189,7 @@ chorro: #323031 */
 .cont-formulario {
     background-color: #F0EBD8;
 }
-/*main*/
+/*MAIN*/
 
 .contenido-principal {
     display: flex;
@@ -238,7 +237,7 @@ chorro: #323031 */
     border-radius: 5px;
     cursor: pointer;
 }
-/*footer*/
+/*FOOTER*/
 .pie-contacto {
     background-color: #EBEBD3;
     display: flex;
@@ -410,12 +409,12 @@ chorro: #323031 */
 /*INDEX*/
 /*pantalla de tablet normal*/
 @media (max-width: 1023px) and (min-width: 581px) {
-    /*header*/
+    /*HEADER*/
     .menu-principal {
     display: grid;
     }
 
-    /*main*/
+    /*MAIN*/
     .grid-contenido {
         background-color: #EBEBD3 ;
         display: grid;
@@ -496,7 +495,7 @@ chorro: #323031 */
     
 
 
-    /*section*/
+    /*SECTION*/
 .grid-contenido2 {
     background-color: #D8CFAF;
     display: grid;
@@ -532,7 +531,7 @@ chorro: #323031 */
 
 
 
-/*Footer*/
+/*FOOTER*/
 .grid-pie {
     background-color: #EBEBD3;
     display: grid;
@@ -821,12 +820,12 @@ chorro: #323031 */
 /*INDEX*/
 /*pantallas pequeñas*/
 @media (max-width: 580px) and (min-width: 320px) {
-    /*header*/
+    /*HEADER*/
     .menu-principal {
     display: grid;
     }
 
-    /*main*/
+    /*MAIN*/
     .grid-contenido {
         background-color: #EBEBD3 ;
         display: grid;
@@ -907,7 +906,7 @@ chorro: #323031 */
     
 
 
-    /*section*/
+    /*SECTION*/
 .grid-contenido2 {
     background-color: #D8CFAF;
     display: grid;
@@ -945,7 +944,7 @@ chorro: #323031 */
 
 
 
-/*Footer*/
+/*FOOTER*/
 .grid-pie {
     background-color: #EBEBD3;
     display: grid;
