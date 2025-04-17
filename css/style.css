@@ -437,124 +437,88 @@ chorro: #323031 */
 
 /*CONTACTO*/
 
-/*header*/
-.menu-principal {
-    display: grid;
-}
-
+/* Header */
 .cont-contacto {
-    background-image: url(../assets/espejo-asimetrico-para-salon-color-marron.jpg) ;
-    width: 100vh;
-    height: 100vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.cont-contacto h1 {
-    font-size: 75px;
-    color: #323031;
-}
-.cont-formulario {
-    background-color: #F0EBD8;
-}
-/*main*/
-
-.contenido-principal {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100vh;
-    height: 100vh;
-    background-color: #D8CFAF;
-}
-
-.navbar {
-    background-color: #EBEBD3;
-    padding: 50px 60px;
-    border-radius: 10px;
-}
-
-.cont-formulario {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-}
-
-.cont-formulario label {
-    font-size: 25px;
-    color: #4C5B5C;
-    text-align: center;
-}
-
-.cont-formulario input[type="text"], input[type="email"], textarea {
-    padding: 10px;
-    border: 3px solid #EBEBD3;
-    border-radius: 10px;
-    font-size: 20px;
     width: 100%;
-}
-
-.cont-formulario textarea {
-    resize: vertical;
-    min-height: 100px;
-}
-.cont-formulario input[type="submit"] {
-    background-color: #4C5B5C;
-    border: none;
-    padding: 15px 10px;
-    font-size: 25px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-/*footer*/
-.pie-contacto {
-    background-color: #EBEBD3;
-    display: flex;
-    padding: 50px 25px;
-    width: 100vh;
-    height: 100vh;
-
-}
-.contenido-pie {
-    display: flex;
-    flex-grow: row;
-    max-width: 100%;
-    margin: 15px;
-}
-.contenido-pie ul {
-    list-style: none;
-    display: flex;
-    gap: 100px;
-}
-
-.contenido-pie li {
-    display: flex;
+    height: 60vh;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
     flex-direction: column;
+    text-align: center;
+  }
+
+  .cont-contacto h1 {
+    font-size: 60px;
+    padding: 20px;
+  }
+
+  /* Main */
+  .contenido-principal {
+    width: 100%;
+    height: auto;
+    padding: 30px;
+  }
+
+  .cont-formulario {
+    width: 90%;
+    max-width: 600px;
+  }
+
+  .cont-formulario label,
+  .cont-formulario input,
+  .cont-formulario textarea,
+  .cont-formulario input[type="submit"] {
+    font-size: 18px;
+  }
+
+  .cont-formulario input,
+  .cont-formulario textarea {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  /* Footer */
+  .pie-contacto {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    padding: 30px;
+  }
+
+  .contenido-pie {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 40px;
+  }
+
+  .contenido-pie ul {
+    flex-direction: column;
+    gap: 15px;
+    padding: 0;
+  }
+
+  .contenido-pie h2 {
+    font-size: 35px;
+  }
+
+  .contenido-pie a,
+  .contenido-pie p {
+    font-size: 20px;
+  }
+
+  /* Navbar */
+  .navbar-nav {
+    text-align: center;
+  }
+
+  .navbar-brand img {
+    width: 80px;
+    height: 70px;
+  }
 }
 
-.contenido-pie h2 {
-    font-size: 50px;
-    color: #4C5B5C;
-}
-.contenido-pie a {
-    color: #4C5B5C;
-    text-decoration: none;
-
-    font-size: 25px;
-}
-
-.contenido-pie a:hover {
-    color: #f9c80e;
-}
-
-.contenido-pie p {
-    font-size: 25px;
-}
-
-}
 /*INDEX*/
 /*pantallas pequeñas*/
 @media (min-width: 320px) and (max-width: 580px) {
@@ -715,122 +679,69 @@ chorro: #323031 */
 
 /*CONTACTO*/
 
-/*header*/
-.menu-principal {
-    display: grid;
-}
-
-.cont-contacto {
-    background-image: url(../assets/espejo-asimetrico-para-salon-color-marron.jpg) ;
-    width: 100vh;
-    height: 80vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.cont-contacto h1 {
-    font-size: 100px;
-    color: #323031;
-}
-.cont-formulario {
-    background-color: #F0EBD8;
-}
-/*main*/
-
-.contenido-principal {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100vh;
-    height: 80vh;
-    background-color: #D8CFAF;
-    text-align: center;
-    
-}
-
-.navbar {
-    background-color: #EBEBD3;
-    border-radius: 10px;
-    
-}
-
-.cont-formulario {
-    display: flex;
-    flex-direction: column;
-}
-
-.cont-formulario label {
-    font-size: 20px;
-    color: #4C5B5C;
-    text-align: center;
-}
-
-.cont-formulario input[type="text"], input[type="email"], textarea {
-    padding: 10px;
-    border: 3px solid #EBEBD3;
-    border-radius: 10px;
-    font-size: 20px;
+ /* Header */
+ .cont-contacto {
     width: 100%;
-}
-
-.cont-formulario textarea {
-    resize: vertical;
-    min-height: 100px;
-}
-.cont-formulario input[type="submit"] {
-    background-color: #4C5B5C;
-    border: none;
-    padding: 15px 10px;
-    font-size: 25px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-/*footer*/
-.pie-contacto {
-    background-color: #EBEBD3;
-    display: flex;
-    width: 100vh;
-    height: 100vh;
-    padding: 50px 25px;
-}
-.contenido-pie {
-    display: flex;
-    justify-content: space-between;
-    flex-grow: row;
-    max-width: 100%;
-    margin: 15px;
-}
-.contenido-pie ul {
-    list-style: none;
-    display: flex;
-    gap: 100px;
-}
-
-.contenido-pie li {
-    display: flex;
+    height: auto;
     flex-direction: column;
-}
+    padding: 20px;
+    text-align: center;
+  }
 
-.contenido-pie h2 {
-    font-size: 50px;
-    color: #4C5B5C;
-}
-.contenido-pie a {
-    color: #4C5B5C;
-    text-decoration: none;
+  .cont-contacto h1 {
+    font-size: 40px;
+    padding: 10px;
+  }
 
-    font-size: 25px;
-}
+  /* Main */
+  .contenido-principal {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+  }
 
-.contenido-pie a:hover {
-    color: #f9c80e;
-}
+  .cont-formulario {
+    width: 100%;
+  }
 
-.contenido-pie p {
-    font-size: 25px;
-}
+  .cont-formulario label,
+  .cont-formulario input,
+  .cont-formulario textarea,
+  .cont-formulario input[type="submit"] {
+    font-size: 16px;
+  }
+
+  .cont-formulario input,
+  .cont-formulario textarea {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  /* Footer */
+  .pie-contacto {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+  }
+
+  .contenido-pie {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .contenido-pie ul {
+    flex-direction: column;
+    gap: 20px;
+    padding: 0;
+  }
+
+  .contenido-pie h2 {
+    font-size: 30px;
+  }
+
+  .contenido-pie a,
+  .contenido-pie p {
+    font-size: 18px;
+  }
 }
