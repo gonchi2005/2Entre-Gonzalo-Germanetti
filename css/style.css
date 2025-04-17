@@ -712,7 +712,8 @@ chorro: #323031 */
 
 .cont-contacto {
     background-image: url(../assets/espejo-asimetrico-para-salon-color-marron.jpg) ;
-    height: 80vh;
+    width: 100%;
+    height: auto;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
