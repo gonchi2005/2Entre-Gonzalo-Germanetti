@@ -4,7 +4,6 @@
     .menu-principal {
     display: grid;
     }
-  
     /*MAIN*/
     .grid-contenido {
         background-color: #EBEBD3 ;
@@ -83,9 +82,6 @@
         text-decoration: none;
         color: #000000;
     }
-    
-  
-  
     /*SECTION*/
   .grid-contenido2 {
     background-color: #D8CFAF;
@@ -118,10 +114,6 @@
   .a5 {
     grid-area: a5;
   }
-  
-  
-  
-  
   /*FOOTER*/
   .grid-pie {
     background-color: #EBEBD3;
@@ -146,26 +138,19 @@
     color: #4C5B5C;
     text-align: start;
   }
-  
-  
-  
-  
   /*CONTACTO*/
   /* HEADER */
   .menu-principal nav.navbar {
     background-color: #F0EBD8 !important;
     border-bottom: 2px solid #4C5B5C;
   }
-  
   .navbar-toggler {
     background-color: #4C5B5C;
   }
-  
   .navbar-nav .nav-link {
     color: #4C5B5C;
     text-align: center;
   }
-  
   .cont-contacto {
     background-color: #F0EBD8; 
     width: 100%;
@@ -189,7 +174,6 @@
     padding: 30px;
     background-color: #D8CFAF;
   }
-  
   .cont-formulario {
     background-color: #F0EBD8;
     padding: 25px;
@@ -198,13 +182,11 @@
     max-width: 600px;
     margin: 0 auto;
   }
-  
   .cont-formulario label {
     font-size: 18px;
     color: #4C5B5C;
     margin-bottom: 6px;
   }
-  
   .cont-formulario input[type="text"],
   .cont-formulario input[type="email"],
   .cont-formulario textarea {
@@ -214,7 +196,6 @@
     border-radius: 10px;
     margin-bottom: 12px;
   }
-  
   .cont-formulario input[type="submit"] {
     font-size: 20px;
     padding: 14px;
@@ -223,7 +204,6 @@
     border: none;
     border-radius: 8px;
   }
-  
   /* FOOTER */
   .pie-contacto {
     background-color: #EBEBD3;
@@ -235,7 +215,6 @@
     padding: 40px;
     border-top: 2px solid #4C5B5C;
   }
-  
   .contenido-pie {
     display: flex;
     flex-direction: row;
@@ -243,7 +222,6 @@
     justify-content: space-around;
     gap: 40px;
   }
-  
   .contenido-pie ul {
     list-style: none;
     padding: 0;
@@ -251,41 +229,32 @@
     flex-direction: column;
     gap: 15px;
   }
-  
   .contenido-pie h2 {
     font-size: 28px;
     color: #4C5B5C;
   }
-  
   .contenido-pie a,
   .contenido-pie p {
     font-size: 18px;
     color: #4C5B5C;
     text-decoration: none;
   }
-  
   .contenido-pie a:hover {
     color: #f9c80e;
   }
-  
   /*PRODUCTOS*/
-  
-  
   /* HEADER */
   .menu-principal nav.navbar {
     background-color: #F0EBD8 !important;
     border-bottom: 2px solid #4C5B5C;
   }
-  
   .navbar-toggler {
     background-color: #4C5B5C;
   }
-  
   .navbar-nav .nav-link {
     color: #4C5B5C;
     text-align: center;
   }
-  
   .cont-contacto {
     background-color: #F0EBD8; 
     width: 100%;
@@ -296,13 +265,11 @@
     background-size: cover;
     background-position: center;
   }
-  
   .cont-contacto h1 {
     font-size: 40px;
     color: #323031;
     padding: 10px 0;
   }
-  
   /*MAIN*/
   .galeria {
     display: grid;
@@ -311,13 +278,9 @@
     padding: 20px;
     background-color: #D8CFAF;
   }
-  
-  
   .contenido-produc {
     text-align: center; 
   }
-  
-  
   .galeria img {
     width: 100%;
     height: 400px;
@@ -327,14 +290,10 @@
     transition: 0.3s ease, 0.3s ease;
     cursor: pointer;
   }
-  
-  
   .galeria img:hover {
     transform: scale(1.05);
     filter: brightness(1.1);
   }
-  
-  
   .titulo-img {
     margin: 10px 0;
     font-size: 16px;
@@ -342,8 +301,6 @@
     font-weight: 800px;
     text-transform: uppercase;
   }
-  
-  
   .accion {
     background-color: #4C5B5C;
     color: #EBEBD3;
@@ -355,12 +312,9 @@
     transition: 0.3s ease;
     margin-top: 10px;
   }
-  
-  
   .accion:hover {
     background-color: #f9c80e;
   }
-  
   /* FOOTER */
   .pie-contacto {
     background-color: #EBEBD3;
@@ -372,7 +326,6 @@
     padding: 40px;
     border-top: 2px solid #4C5B5C;
   }
-  
   .contenido-pie {
     display: flex;
     flex-direction: row;
@@ -380,7 +333,6 @@
     justify-content: space-around;
     gap: 40px;
   }
-  
   .contenido-pie ul {
     list-style: none;
     padding: 0;
@@ -388,26 +340,73 @@
     flex-direction: column;
     gap: 15px;
   }
-  
   .contenido-pie h2 {
     font-size: 28px;
     color: #4C5B5C;
   }
-  
   .contenido-pie a,
   .contenido-pie p {
     font-size: 18px;
     color: #4C5B5C;
     text-decoration: none;
   }
-  
   .contenido-pie a:hover {
     color: #f9c80e;
   }
-  
-  
   }
+/*QUIENES SOMOS*/
+/*NAV*/
+.gradient {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 400px;
+  padding: 20px;
+  background: linear-gradient(-45deg, #EBEBD3, #4C5B5C, #F0EBD8);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+@keyframes gradient{
+  0%{
+    background-position: 0% 50%;
 
+  }
+  50%{
+    background-position: 50% 100%;
+
+  }
+  100%{
+    background-position: 0% 50%;
+
+  }
+}
+.gradient h1 {
+    font-size: 40px;
+    padding-top: 80px;
+    color: #EBEBD3;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    margin-bottom: 100px;
+}
+.gradient h1:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+    color: #242424;
+}
+.gradient p {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 0;
+    color:#EBEBD3;
+    margin-left: 0 ;
+    transition: transform 0.3s ease-in-out;
+}
+.gradient p:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+    color: #242424;
+}
   /*pantallas pequeñas*/
 @media (max-width: 580px) and (min-width: 320px) {
     /*HEADER*/
@@ -493,9 +492,6 @@
         text-decoration: none;
         color: #000000;
     }
-    
-  
-  
     /*SECTION*/
   .grid-contenido2 {
     background-color: #D8CFAF;
@@ -530,10 +526,6 @@
   .a5 {
     grid-area: a5;
   }
-  
-  
-  
-  
   /*FOOTER*/
   .grid-pie {
     background-color: #EBEBD3;
@@ -559,29 +551,19 @@
     color: #4C5B5C;
     text-align: start;
   }
-  
-  
-  
-  
-  
-  
   /*CONTACTO*/
   /* HEADER */
-  
   .menu-principal nav.navbar {
     background-color: #F0EBD8 !important;
     border-bottom: 2px solid #4C5B5C;
   }
-  
   .navbar-toggler {
     background-color: #4C5B5C;
   }
-  
   .navbar-nav .nav-link {
     color: #4C5B5C;
     text-align: center;
   }
-  
   .cont-contacto {
     background-color: #F0EBD8; 
     width: 100%;
@@ -592,13 +574,11 @@
     background-size: cover;
     background-position: center;
   }
-  
   .cont-contacto h1 {
     font-size: 40px;
     color: #323031;
     padding: 10px 0;
   }
-  
   /* MAIN */
   .contenido-principal {
     display: flex;
@@ -609,20 +589,17 @@
     padding: 20px;
     background-color: #D8CFAF;
   }
-  
   .cont-formulario {
     background-color: #F0EBD8;
     padding: 15px;
     border-radius: 10px;
     width: 100%;
   }
-  
   .cont-formulario label {
     font-size: 16px;
     margin-bottom: 5px;
     color: #4C5B5C;
   }
-  
   .cont-formulario input[type="text"],
   .cont-formulario input[type="email"],
   .cont-formulario textarea {
@@ -632,7 +609,6 @@
     border-radius: 8px;
     margin-bottom: 10px;
   }
-  
   .cont-formulario input[type="submit"] {
     font-size: 18px;
     padding: 12px;
@@ -641,7 +617,6 @@
     border-radius: 8px;
     border: none;
   }
-  
   /* FOOTER */
   .pie-contacto {
     display: flex;
@@ -652,13 +627,11 @@
     padding: 30px 20px;
     border-top: 2px solid #4C5B5C;
   }
-  
   .contenido-pie {
     flex-direction: column;
     gap: 30px;
     align-items: center;
   }
-  
   .contenido-pie ul {
     list-style: none;
     padding: 0;
@@ -667,13 +640,11 @@
     gap: 20px;
     align-items: center;
   }
-  
   .contenido-pie h2 {
     font-size: 22px;
     color: #4C5B5C;
     text-align: center;
   }
-  
   .contenido-pie a,
   .contenido-pie p {
     font-size: 16px;
@@ -681,21 +652,15 @@
     text-align: center;
     text-decoration: none;
   }
-  
   .contenido-pie a:hover {
     color: #f9c80e;
   }
-  
-  
   /*PRODUCTOS*/
-  
   /* HEADER */
-  
   .menu-principal nav.navbar {
     background-color: #F0EBD8 !important;
     border-bottom: 2px solid #4C5B5C;
   }
-  
   .navbar-toggler {
     background-color: #4C5B5C;
   }
@@ -704,7 +669,6 @@
     color: #4C5B5C;
     text-align: center;
   }
-  
   .cont-contacto {
     background-color: #F0EBD8; 
     width: 100%;
@@ -715,13 +679,11 @@
     background-size: cover;
     background-position: center;
   }
-  
   .cont-contacto h1 {
     font-size: 40px;
     color: #323031;
     padding: 10px 0;
   }
-  
   /*MAIN*/
   .galeria {
     display: grid;
@@ -730,13 +692,9 @@
     padding: 20px;
     background-color: #D8CFAF;
   }
-  
-  
   .contenido-produc {
     text-align: center; 
   }
-  
-  
   .galeria img {
     width: 100%;
     height: 400px;
@@ -746,14 +704,10 @@
     transition: 0.3s ease, 0.3s ease;
     cursor: pointer;
   }
-  
-  
   .galeria img:hover {
     transform: scale(1.05);
     filter: brightness(1.1);
   }
-  
-  
   .titulo-img {
     margin: 10px 0;
     font-size: 16px;
@@ -761,8 +715,6 @@
     font-weight: 800px;
     text-transform: uppercase;
   }
-  
-  
   .accion {
     background-color: #4C5B5C;
     color: #EBEBD3;
@@ -774,8 +726,6 @@
     transition: 0.3s ease;
     margin-top: 10px;
   }
-  
-  
   .accion:hover {
     background-color: #f9c80e;
   }
@@ -789,13 +739,11 @@
     padding: 30px 20px;
     border-top: 2px solid #4C5B5C;
   }
-  
   .contenido-pie {
     flex-direction: column;
     gap: 30px;
     align-items: center;
   }
-  
   .contenido-pie ul {
     list-style: none;
     padding: 0;
@@ -804,13 +752,11 @@
     gap: 20px;
     align-items: center;
   }
-  
   .contenido-pie h2 {
     font-size: 22px;
     color: #4C5B5C;
     text-align: center;
   }
-  
   .contenido-pie a,
   .contenido-pie p {
     font-size: 16px;
@@ -818,9 +764,58 @@
     text-align: center;
     text-decoration: none;
   }
-  
   .contenido-pie a:hover {
     color: #f9c80e;
   }
-  
   }
+
+
+  /*QUIENES SOMOS*/
+  /*NAV*/
+  .gradient {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 300px;
+  background: linear-gradient(-45deg, #EBEBD3, #4C5B5C, #F0EBD8);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+@keyframes gradient{
+  0%{
+    background-position: 0% 50%;
+
+  }
+  50%{
+    background-position: 50% 100%;
+
+  }
+  100%{
+    background-position: 0% 50%;
+
+  }
+}
+.gradient h1 {
+    font-size: 70px;
+    color: #EBEBD3;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    margin-top: -80px;
+}
+.gradient h1:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+    color: #242424;
+}
+.gradient p {
+    font-size: 20px;
+    text-align: center;
+    color:#EBEBD3;
+    transition: transform 0.3s ease-in-out;
+    margin-top: -160px;
+}
+.gradient p:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+    color: #242424;
+}

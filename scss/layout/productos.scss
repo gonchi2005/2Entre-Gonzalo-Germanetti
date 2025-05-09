@@ -2,7 +2,6 @@
 .menu-principal {
     display: grid;
   }
-  
   .cont-contacto {
     height: 80vh;
     background-size: cover;
@@ -19,7 +18,6 @@
   .cont-formulario {
     background-color: #F0EBD8;
   }
-  
   /*MAIN*/
   .galeria {
     display: grid;
@@ -28,13 +26,9 @@
     padding: 20px;
     background-color: #D8CFAF;
   }
-  
-  
   .contenido-produc {
     text-align: center; 
   }
-  
-  
   .galeria img {
     width: 100%;
     height: 400px;
@@ -44,14 +38,10 @@
     transition: 0.3s ease, 0.3s ease;
     cursor: pointer;
   }
-  
-  
   .galeria img:hover {
     transform: scale(1.05);
     filter: brightness(1.1);
   }
-  
-  
   .titulo-img {
     margin: 10px 0;
     font-size: 16px;
@@ -59,8 +49,6 @@
     font-weight: 800px;
     text-transform: uppercase;
   }
-  
-  
   .accion {
     background-color: #4C5B5C;
     color: #EBEBD3;
@@ -72,8 +60,6 @@
     transition: 0.3s ease;
     margin-top: 10px;
   }
-  
-  
   .accion:hover {
     background-color: #f9c80e;
   }
@@ -119,4 +105,3 @@
   .contenido-pie p {
     font-size: 25px;
   }
-  

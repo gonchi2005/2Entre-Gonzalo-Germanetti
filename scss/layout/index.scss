@@ -2,7 +2,6 @@
 .menu-principal {
     display: grid;
   }
-  
     /*MAIN*/
     .grid-contenido {
         background-color: #EBEBD3 ;
@@ -80,9 +79,6 @@
         text-decoration: none;
         color: #000000;
     }
-    
-  
-  
     /*SECTION*/
   .grid-contenido2 {
     background-color: #D8CFAF;
@@ -115,10 +111,6 @@
   .a5 {
     grid-area: a5;
   }
-  
-  
-  
-  
   /*FOOTER*/
   .grid-pie {
     background-color: #EBEBD3;
@@ -143,5 +135,3 @@
     color: #4C5B5C;
     text-align: start;
   }
-  
-  
